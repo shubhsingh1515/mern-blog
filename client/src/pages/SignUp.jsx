@@ -34,12 +34,7 @@ export default function SignUp() {
               <Label value="Your password" />
               <TextInput type="text" placeholder="Password" id="password" />
             </div>
-            <Button
-              style={{
-                backgroundColor: "violet",
-                color: "white",
-                textAlign: "center",
-              }}
+            <Button gradientDuoTone="purpleToBlue"
               type="submit"
             >
               Sign Up
