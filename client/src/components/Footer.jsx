@@ -75,9 +75,9 @@ export default function FooterComp() {
             year={new Date().getFullYear()}
           ></Footer.Copyright>
           <div className="flex gap-6 sm:mt-0 mt-4 sm:justify-center">
-            <Footer.Icon href="#" icon={BsFacebook}></Footer.Icon>
-            <Footer.Icon href="#" icon={BsInstagram}></Footer.Icon>
-            <Footer.Icon href="#" icon={BsTwitter}></Footer.Icon>
+            <Footer.Icon href="https://www.facebook.com/profile.php?id=100038375522490" icon={BsFacebook}></Footer.Icon>
+            <Footer.Icon href="https://www.instagram.com/shubh_singh1515/" icon={BsInstagram}></Footer.Icon>
+            <Footer.Icon href="https://x.com/Shubh_singh1515" icon={BsTwitter}></Footer.Icon>
             <Footer.Icon
               href="https://github.com/shubhsingh1515"
               icon={BsGithub}
