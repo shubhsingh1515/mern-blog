@@ -80,6 +80,7 @@ export default function SignUp() {
                 type='password'
                 placeholder='Password'
                 id='password'
+                autocomplete="current-password"
                 onChange={handleChange}
               />
             </div>
