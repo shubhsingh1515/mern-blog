@@ -6,6 +6,7 @@ import { useSelector, useDispatch } from 'react-redux';
 import { toggleTheme } from '../redux/theme/themeSlice';
 import { signoutSuccess } from '../redux/user/userSlice';
 import { useEffect, useState } from 'react';
+import logo from '../logo.png';
 
 export default function Header() {
   const path = useLocation().pathname;
@@ -50,15 +51,9 @@ export default function Header() {
 
   return (
     <Navbar className='border-b-2'>
-      <Link
-        to='/'
-        className='self-center whitespace-nowrap text-sm sm:text-xl font-semibold dark:text-white'
-      >
-        <span className='px-2 py-1 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-lg text-white'>
-          Shubham's
-        </span>
-        Blog
-      </Link>
+            <Link to="/" className="font-bold dark:text-white text-4xl">
+              <img src={logo} alt="Logo" className="h-16 rounded-full sm:h-12 md:h-20" />
+            </Link>
       <form onSubmit={handleSubmit}>
         <TextInput
           type='text'

@@ -106,6 +106,7 @@ export default function CreatePost() {
             <option value='javascript'>JavaScript</option>
             <option value='reactjs'>React.js</option>
             <option value='nextjs'>Next.js</option>
+            <option value='nextjs'>Node.js</option>
             <option value='mongodb'>MongoDB</option>
             <option value='aws'>AWS</option>
             <option value='data-science'>Data Science</option>
@@ -113,6 +114,7 @@ export default function CreatePost() {
             <option value='machine-learning'>Machine Learning</option>
             <option value='cybersecurity'>Cybersecurity</option>
             <option value='blockchain'>Blockchain</option>
+            <option value='programming'>Programming</option>
             <option value='iot'>Internet of Things (IoT)</option>
           </Select>
         </div>

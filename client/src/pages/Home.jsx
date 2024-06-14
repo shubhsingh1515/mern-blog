@@ -17,7 +17,7 @@ export default function Home() {
   return (
     <div>
       <div className='flex flex-col gap-6 p-28 px-3 max-w-6xl mx-auto '>
-        <h1 className='text-3xl font-bold lg:text-6xl'>Welcome to my Blog</h1>
+        <h1 className='text-3xl font-bold lg:text-6xl'>Welcome to TechVoyage</h1>
         <p className='text-gray-500 text-xs sm:text-sm'>
         Explore a comprehensive collection of articles and tutorials covering advanced topics such as
         web development, software engineering, programming languages, artificial intelligence, and data science.
