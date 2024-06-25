@@ -43,7 +43,7 @@ export default function FooterComp() {
       <p>You have the right to access, correct, and delete your personal data.</p>
       <p>Our website may contain links to third-party sites. We are not responsible for their privacy practices.</p>
       <p>We will notify you of any changes to this policy via our website.</p>
-      <p>If you have any questions, please contact us at [shubhsingh1515].</p>
+      <p>If you have any questions, please contact us at [shubhsingh1515@gmail.com].</p>
     </div>
   );
 
@@ -57,7 +57,7 @@ export default function FooterComp() {
       <p>You agree to indemnify us against any claims arising from your use of the website.</p>
       <p>We may terminate your access to the site at our discretion.</p>
       <p>We will notify you of any changes to these terms via our website.</p>
-      <p>If you have any questions, please contact us at [shubhsingh1515].</p>
+      <p>If you have any questions, please contact us at [shubhsingh1515@gmail.com].</p>
     </div>
   );
 
