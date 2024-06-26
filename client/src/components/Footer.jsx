@@ -70,7 +70,7 @@ export default function FooterComp() {
               <img
                 src={logo}
                 alt="Logo"
-                className="h-40 rounded-full sm:h-32 md:h-48"
+                className="h-28 rounded-full sm:h-24 md:h-32"
               />
             </Link>
           </div>

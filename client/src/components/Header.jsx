@@ -8,6 +8,7 @@ import { signoutSuccess } from '../redux/user/userSlice';
 import { useEffect, useState } from 'react';
 import logo from '../logo.png';
 
+
 export default function Header() {
   const path = useLocation().pathname;
   const location = useLocation();
@@ -114,6 +115,9 @@ export default function Header() {
         </Navbar.Link>
         <Navbar.Link active={path === '/projects'} as={'div'}>
           <Link to='/projects'>Projects</Link>
+        </Navbar.Link>
+        <Navbar.Link active={path === '/ContactSection'} as={'div'}>
+          <Link to='/ContactSection'>Contacts</Link>
         </Navbar.Link>
       </Navbar.Collapse>
     </Navbar>

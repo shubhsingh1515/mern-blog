@@ -146,7 +146,7 @@ export default function Search() {
               <option value="iot">Internet of Things (IoT)</option>
             </Select>
           </div>
-          <Button type="submit" outline gradientDuoTone="purpleToPink">
+          <Button type="submit" outline gradientDuoTone="purpleToBlue">
             Apply Filters
           </Button>
         </form>
