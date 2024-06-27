@@ -3,15 +3,15 @@ export default function About() {
     <div className="min-h-screen flex items-center justify-center">
       <div className="max-w-2xl mx-auto p-3 text-center">
         <div>
-          <h1 className="text-3xl font font-semibold text-center my-7">
+          <h1 className="text-3xl font font-semibold text-center my-5">
             About TechVoyage
           </h1>
-          <div className="text-md text-gray-500 flex flex-col gap-6">
+          <div className="text-md text-gray-400 flex flex-col gap-5">
             <p>
               Welcome to TechVoyage! This blog was developed as a collaborative
               project by Shubham Singh, Anubhav Tiwari and Vishakha Chaudhary.
               The team, comprising passionate developers, aims to share insights
-              and ideas with the global tech community. Our content focuses on
+              and ideas with the tech community. Our content focuses on
               various aspects of technology, software development, and related
               fields.
             </p>

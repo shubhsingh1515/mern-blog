@@ -45,7 +45,7 @@ export default function Home() {
             </Link> 
           </div>
           <div className='w-1/4 p-4 bg-gray-100 dark:bg-slate-800'>
-            <h2 className='text-xl font-semibold mb-4'>Programming Tutorials</h2>
+            <h2 className='text-xl font-semibold mb-4'>Recommended Tutorials</h2>
             <ul className='flex flex-col gap-2'>
               {tutorials.map((tutorial) => (
                 <li key={tutorial.name}>
