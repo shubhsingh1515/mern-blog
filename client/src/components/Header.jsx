@@ -52,7 +52,7 @@ export default function Header() {
 
   return (
     <Navbar className='border-b-2'>
-            <Link to="/" className="font-bold dark:text-white text-4xl">
+            <Link to="/" className="font-bold dark:text-white text-5xl">
               <img src={logo} alt="Logo" className="h-16 rounded-full sm:h-12 md:h-20" />
             </Link>
       <form onSubmit={handleSubmit}>
@@ -113,12 +113,16 @@ export default function Header() {
         <Navbar.Link active={path === '/about'} as={'div'}>
           <Link to='/about'>About</Link>
         </Navbar.Link>
+        <Navbar.Link active={path === '/Blogs'} as={'div'}>
+          <Link to='/BLogs'>Blogs</Link>
+        </Navbar.Link>
         <Navbar.Link active={path === '/projects'} as={'div'}>
           <Link to='/projects'>Projects</Link>
         </Navbar.Link>
         <Navbar.Link active={path === '/ContactSection'} as={'div'}>
           <Link to='/ContactSection'>Contacts</Link>
         </Navbar.Link>
+
       </Navbar.Collapse>
     </Navbar>
   );
