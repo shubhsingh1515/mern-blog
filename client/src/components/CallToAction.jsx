@@ -1,4 +1,5 @@
 import { Button } from 'flowbite-react';
+import imagePath from "../pages/img/portfolio.png";
 
 export default function CallToAction() {
   return (
@@ -9,7 +10,7 @@ export default function CallToAction() {
         </h2>
         <div className="p-4">
         <a href="https://shubhsingh1515.github.io/Weather-App/" target='_blank' rel='noopener noreferrer'>
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTazNQmichhRGBBcjrqWZVylkEiwYPwU4AoLA&s" className="w-full h-auto" style={{ width: '300px', height: '200px' }} />
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTS5zCoukLJNu9n47SQ-ZFZobVRST_MpBX-lPySZpt28Yu4DZIer0u-dn56mTlFih9Cdf0&usqp=CAU" className="w-full h-auto" style={{ width: '300px', height: '200px' }} />
     </a>
         </div>
         <Button gradientDuoTone='purpleToBlue' className='rounded-tl-xl rounded-bl-none'>
@@ -25,7 +26,7 @@ export default function CallToAction() {
         </h2>
         <div className="p-4">
         <a href="https://github.com/shubhsingh1515/Movie-Search-App" target='_blank' rel='noopener noreferrer'>
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhyT-bJy5lU2T-vq0uqKMEYgWXFi43rJkvrA&s" className="w-full h-auto" style={{ width: '300px', height: '200px' }} />
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRi1WepDqWN32MrmSYOT_NdzHTsMMrv0uhAXEVWyJro4v8c0pM8Q3M9QwkGCArmK5nIHr8&usqp=CAU" className="w-full h-auto" style={{ width: '300px', height: '200px' }} />
     </a>
         </div>
         <Button gradientDuoTone='purpleToBlue' className='rounded-tl-xl rounded-bl-none'>
@@ -53,15 +54,15 @@ export default function CallToAction() {
 
       <div className="flex flex-col justify-center items-center">
         <h2 className='text-2xl'>
-          Portfolio
+          Blog Website
         </h2>
         <div className="p-4">
-        <a href="https://p-6nib.onrender.com/" target='_blank' rel='noopener noreferrer'>
-      <img src="https://images.pexels.com/photos/14936128/pexels-photo-14936128.jpeg?cs=srgb&dl=pexels-ann-h-45017-14936128.jpg&fm=jpg" className="w-full h-auto" style={{ width: '300px', height: '200px' }} />
+        <a href="https://mern-blog-o6qn.onrender.com/" target='_blank' rel='noopener noreferrer'>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKRnQsH80rU5vFcmzc4YLhdIbncqbEkK_FrKMQHseuW8PD6lJo73-ASKVzTXas_zVoZRI&usqp=CAU" className="w-full h-auto" style={{ width: '300px', height: '200px' }} />
     </a>
         </div>
         <Button gradientDuoTone='purpleToBlue' className='rounded-tl-xl rounded-bl-none'>
-          <a href="https://github.com/shubhsingh1515/Portfolio" target='_blank' rel='noopener noreferrer'>
+          <a href="https://github.com/shubhsingh1515/mern-blog" target='_blank' rel='noopener noreferrer'>
             View
           </a>
         </Button>
@@ -85,15 +86,15 @@ export default function CallToAction() {
 
       <div className="flex flex-col justify-center items-center">
         <h2 className='text-2xl'>
-          Movie Search App
+          Portfolio
         </h2>
         <div className="p-4">
-        <a href="https://github.com/shubhsingh1515/Movie-Search-App" target='_blank' rel='noopener noreferrer'>
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhyT-bJy5lU2T-vq0uqKMEYgWXFi43rJkvrA&s" className="w-full h-auto" style={{ width: '300px', height: '200px' }} />
+        <a href="https://github.com/shubhsingh1515/Portfolio" target='_blank' rel='noopener noreferrer'>
+      <img src={imagePath} className="w-full h-auto" style={{ width: '300px', height: '200px' }} />
     </a>
         </div>
         <Button gradientDuoTone='purpleToBlue' className='rounded-tl-xl rounded-bl-none'>
-          <a href="https://movie-search-app-qccb.onrender.com/" target='_blank' rel='noopener noreferrer'>
+          <a href="https://p-6nib.onrender.com/" target='_blank' rel='noopener noreferrer'>
             View
           </a>
         </Button>

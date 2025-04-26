@@ -15,12 +15,12 @@ import PostPage from './pages/PostPage';
 import ScrollToTop from './components/ScrollToTop';
 import Search from './pages/Search';
 import ContactSection from './pages/ContactSection';
-import Blogs from './pages/Search';
+import Blogs from './pages/Search'; 
 
 export default function App() {
   return (
     <BrowserRouter>
-    <ScrollToTop />
+      <ScrollToTop />
       <Header />
       <Routes>
         <Route path='/' element={<Home />} />
